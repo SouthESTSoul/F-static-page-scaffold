@@ -1,15 +1,52 @@
 <!doctype html>
 <html lang="zh-Hans">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Title</title>
   <link rel="stylesheet" href="./src/style/index.css">
 </head>
+
 <body>
-  Hello World
+  <header class="header">
+    <h1 class="logo">facebook</h1>
+    <button class="register-button">注册</button>
+    <select class='join-facebook'>
+      <option>加入或登录 Facebook</option>
+    </select>
+  </header>
+  <main class="content">
+    <h1>创建主页</h1>
+    <p>
+      向 Facebook 全球社群推广你的业务、你自己或你的公益理念。选择一个主页类别即可开始操作。
+    </p>
+
+    <div class="website-entrances">
+      <section class="business-entrance">
+        <figure>
+          <img src="./src/jpg/biz_illustration.png" alt="">
+          <figcaption class="website-generalization">商家或品牌</figcaption>
+          <figcaption class="website-description">在 Facebook 上展示商品和服务，突显品牌，向更多顾客推广业务。</figcaption>
+          <button class="website-enter-button">开始</button>
+        </figure>
+      </section>
+
+      <section>
+        <figure>
+          <img src="./src/jpg/community_illustration.png" alt="">
+          <figcaption class="website-generalization">社群或公众人物</figcaption>
+          <figcaption class="website-description">
+            与你的社群、组织、团队、小组或俱乐部中的用户建立联系，分享内容。
+          </figcaption>
+          <button class="website-enter-button">开始</button>
+        </figure>
+      </section>
+    </div>
+  </main>
   <script src="src/app.js"></script>
 </body>
+
 </html>
